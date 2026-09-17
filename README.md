@@ -21,6 +21,36 @@
 
 ---
 
+## 🏛️ Tokenomics & Burn Architecture
+
+```mermaid
+flowchart TD
+    subgraph Market ["Decentralized Market Activity"]
+        Swaps["DEX Swap Volume<br>($DEVOUR / $LUNC Pairs)"]
+        FeeCollector["3.0% Creator Fee Engine<br>(Automated On-Chain Split)"]
+    end
+
+    subgraph Split ["Fee Allocation Model"]
+        BurnAlloc["50% Auto-Burn Allocation<br>(1.5% of Trade Volume)"]
+        EcoAlloc["50% Ecosystem and Dev Pool<br>(1.5% for Infrastructure)"]
+    end
+
+    subgraph Execution ["Settlement and Deflation"]
+        Buyback["Market Buyback Engine<br>(Continuous LUNC Purchases)"]
+        BurnAddr["Terra Classic Burn Address<br>(terra1sk0...mm272rszw)"]
+        Sim["Interactive Burn Simulator<br>(DevourCalculator.tsx)"]
+    end
+
+    Swaps --> FeeCollector
+    FeeCollector --> BurnAlloc
+    FeeCollector --> EcoAlloc
+    BurnAlloc --> Buyback
+    Buyback --> BurnAddr
+    BurnAlloc -.-> Sim
+```
+
+---
+
 ## ✨ Features
 
 - **Interactive Fee & Burn Simulator (`DevourCalculator.tsx`):** Real-time mathematical projection tool modeling daily, monthly, and yearly LUNC burn quantities based on adjustable daily volume and LUNC market price.
