@@ -1,6 +1,7 @@
 # 🔥 LUNC Devourer ($DEVOUR) — Web3 dApp Showcase & Fee Burn Simulator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status: 100% Free & Open Source](https://img.shields.io/badge/Status-100%25%20Free%20%26%20Open%20Source-gold)](LICENSE)
 [![Framework: Next.js 16](https://img.shields.io/badge/Framework-Next.js_16_(Turbopack)-black?logo=next.js)](https://nextjs.org/)
 [![React: 19](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=black)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS_v4-38bdf8?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
