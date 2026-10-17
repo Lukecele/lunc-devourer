@@ -181,7 +181,7 @@ export default function Footer() {
             </a>
             <span>•</span>
             <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-              <span>© {new Date().getFullYear()} {TOKEN_CONFIG.name}. Built with</span>
+              <span>Codice Open Source MIT (senza riserva di copyright). Built with</span>
               <Flame size={14} color="var(--primary-orange)" />
               <span>for Terra Classic.</span>
             </div>
