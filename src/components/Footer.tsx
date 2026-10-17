@@ -158,13 +158,33 @@ export default function Footer() {
             color: "var(--text-dim)",
           }}
         >
-          <p style={{ maxWidth: "800px" }}>
-            Disclaimer: {TOKEN_CONFIG.name} ({TOKEN_CONFIG.ticker}) is a community token created on Terraport LaunchPump. Cryptocurrency trading involves financial risk.
+          <p style={{ maxWidth: "800px", lineHeight: "1.6" }}>
+            ⚖️ <strong>Open Source & Note Legali:</strong> Il codice sorgente dell'interfaccia e del simulatore matematico è rilasciato gratuitamente sotto <strong>Licenza Open Source MIT</strong> ed è liberamente consultabile e duplicabile. Questo portale costituisce uno showcase di studio didattico e simulatore di burn tokenomics, a carattere 100% no-profit e senza finalità lucrative né di sollecitazione finanziaria.
           </p>
-          <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-            <span>© {new Date().getFullYear()} {TOKEN_CONFIG.name}. Built with</span>
-            <Flame size={14} color="var(--primary-orange)" />
-            <span>for Terra Classic.</span>
+          <div style={{ display: "flex", alignItems: "center", gap: "10px", flexWrap: "wrap", justifyContent: "center" }}>
+            <a
+              href="https://github.com/Lukecele/lunc-devourer"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "var(--primary-orange)",
+                textDecoration: "none",
+                fontWeight: "600",
+                fontSize: "0.8rem",
+                fontFamily: "monospace",
+                padding: "2px 8px",
+                borderRadius: "4px",
+                border: "1px solid rgba(255, 77, 0, 0.3)"
+              }}
+            >
+              GitHub (MIT License - 100% Free)
+            </a>
+            <span>•</span>
+            <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+              <span>© {new Date().getFullYear()} {TOKEN_CONFIG.name}. Built with</span>
+              <Flame size={14} color="var(--primary-orange)" />
+              <span>for Terra Classic.</span>
+            </div>
           </div>
         </div>
       </div>
