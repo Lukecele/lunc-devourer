@@ -159,7 +159,7 @@ export default function Footer() {
           }}
         >
           <p style={{ maxWidth: "800px", lineHeight: "1.6" }}>
-            ⚖️ <strong>Open Source & Note Legali:</strong> Il codice sorgente dell'interfaccia e del simulatore matematico è rilasciato gratuitamente sotto <strong>Licenza Open Source MIT</strong> ed è liberamente consultabile e duplicabile. Questo portale costituisce uno showcase di studio didattico e simulatore di burn tokenomics, a carattere 100% no-profit e senza finalità lucrative né di sollecitazione finanziaria.
+            ⚖️ <strong>Open Source & Legal Notice:</strong> The source code of this interface and tokenomics simulator is released free of charge under the <strong>MIT Open Source License</strong> with zero proprietary copyright reserved. This website is an educational research showcase and tokenomics burn simulator; it does not provide financial advice, solicit investments, or manage user funds.
           </p>
           <div style={{ display: "flex", alignItems: "center", gap: "10px", flexWrap: "wrap", justifyContent: "center" }}>
             <a
@@ -181,7 +181,7 @@ export default function Footer() {
             </a>
             <span>•</span>
             <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-              <span>Codice Open Source MIT (senza riserva di copyright). Built with</span>
+              <span>Open Source MIT License (Zero copyright reserved). Built with</span>
               <Flame size={14} color="var(--primary-orange)" />
               <span>for Terra Classic.</span>
             </div>
